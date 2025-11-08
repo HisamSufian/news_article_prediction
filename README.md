@@ -68,9 +68,9 @@ The analysis within the notebook follows a typical machine learning workflow:
 - Initial checks for missing values, data types, and distribution of the target variable (share count/category).
 
 2.  Feature Engineering & Preprocessing:
--Handling categorical features (e.g., one-hot encoding for publishing channels).
--Feature Scaling (Normalization or Standardization) to prepare numerical features for the model.
--Feature selection to identify the most impactful features (e.g., using correlation matrices or feature importance).
+- Handling categorical features (e.g., one-hot encoding for publishing channels).
+- Feature Scaling (Normalization or Standardization) to prepare numerical features for the model.
+- Feature selection to identify the most impactful features (e.g., using correlation matrices or feature importance).
 
 3.  Model Training (Classification):
 - The problem is treated as a classification task (e.g., predicting 'High Share' or 'Low Share').
@@ -88,11 +88,12 @@ news_article_prediction/
 
 ## 📝 Future Enhancements
 # Potential improvements for this project include:
-. Deep Learning Models: Experimenting with Neural Networks (e.g., using TensorFlow or PyTorch) for potentially better prediction accuracy.
+- Deep Learning Models: Experimenting with Neural Networks (e.g., using TensorFlow or PyTorch) for potentially better prediction accuracy.
 
-. Time Series Analysis: Incorporating time-based features to see if publishing trends influence shareability.
+- Time Series Analysis: Incorporating time-based features to see if publishing trends influence shareability.
 
-. Deployment: Creating a simple web application (using Flask or Streamlit) to host the trained model for real-time predictions.
+- Deployment: Creating a simple web application (using Flask or Streamlit) to host the trained model for real-time predictions.
+
 
 
 
