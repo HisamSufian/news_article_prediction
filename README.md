@@ -54,31 +54,31 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 ```
 
 # Running the Notebook 
-1. Launch Jupyter: jupyter notebook # OR jupyter lab
+1.  Launch Jupyter: jupyter notebook # OR jupyter lab
 
-2. Open the File: Navigate to and open News_Article_Share_Prediction.ipynb.
+2.  Open the File: Navigate to and open News_Article_Share_Prediction.ipynb.
 
-3. Run Cells: Execute the notebook cells sequentially to perform the data loading, preprocessing, model training, and evaluation steps.
+3.  Run Cells: Execute the notebook cells sequentially to perform the data loading, preprocessing, model training, and evaluation steps.
 
 ## 🧠 Methodology and Key Steps
 The analysis within the notebook follows a typical machine learning workflow:
 
-1. Data Loading & Initial Exploration:
--Data is loaded from a xlsx.
--Initial checks for missing values, data types, and distribution of the target variable (share count/category).
+1.  Data Loading & Initial Exploration:
+- Data is loaded from a xlsx.
+- Initial checks for missing values, data types, and distribution of the target variable (share count/category).
 
-2. Feature Engineering & Preprocessing:
+2.  Feature Engineering & Preprocessing:
 -Handling categorical features (e.g., one-hot encoding for publishing channels).
 -Feature Scaling (Normalization or Standardization) to prepare numerical features for the model.
 -Feature selection to identify the most impactful features (e.g., using correlation matrices or feature importance).
 
-3. Model Training (Classification):
--The problem is treated as a classification task (e.g., predicting 'High Share' or 'Low Share').
--Multiple algorithms are likely tested (e.g., Logistic Regression, Decision Trees, Random Forest, or XGBoost).
--Hyperparameter tuning (GridSearchCV or RandomizedSearchCV) is performed to optimize model performance.
+3.  Model Training (Classification):
+- The problem is treated as a classification task (e.g., predicting 'High Share' or 'Low Share').
+- Multiple algorithms are likely tested (e.g., Logistic Regression, Decision Trees, Random Forest, or XGBoost).
+- Hyperparameter tuning (GridSearchCV or RandomizedSearchCV) is performed to optimize model performance.
 
-4. Evaluation:
--Models are evaluated using metrics such as Accuracy, Precision, Recall, F1-Score, and the ROC AUC curve.
+4.  Evaluation:
+- Models are evaluated using metrics such as Accuracy, Precision, Recall, F1-Score, and the ROC AUC curve.
 
 ## 📂 File Structure
 news_article_prediction/
@@ -87,9 +87,12 @@ news_article_prediction/
 └── news_share_data.xlsx                       <- Assumed dataset file (may be internal to the repo)
 
 ## 📝 Future Enhancements
-. Potential improvements for this project include:
+# Potential improvements for this project include:
 . Deep Learning Models: Experimenting with Neural Networks (e.g., using TensorFlow or PyTorch) for potentially better prediction accuracy.
+
 . Time Series Analysis: Incorporating time-based features to see if publishing trends influence shareability.
+
 . Deployment: Creating a simple web application (using Flask or Streamlit) to host the trained model for real-time predictions.
+
 
 
