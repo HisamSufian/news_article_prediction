@@ -53,14 +53,14 @@ b. Install Dependencies: Install all required libraries using pip.
 pip install pandas numpy scikit-learn matplotlib seaborn
 ```
 
-#Running the Notebook 
+# Running the Notebook 
 1. Launch Jupyter: jupyter notebook # OR jupyter lab
 
 2. Open the File: Navigate to and open News_Article_Share_Prediction.ipynb.
 
 3. Run Cells: Execute the notebook cells sequentially to perform the data loading, preprocessing, model training, and evaluation steps.
 
-##🧠 Methodology and Key Steps
+## 🧠 Methodology and Key Steps
 The analysis within the notebook follows a typical machine learning workflow:
 
 1. Data Loading & Initial Exploration:
@@ -82,13 +82,14 @@ The analysis within the notebook follows a typical machine learning workflow:
 
 ## 📂 File Structure
 news_article_prediction/
-├── News_Article_Share_Prediction.ipynb  <- Main analysis notebook
-└── README.md                            <- This file
-└── news_share_data.xlsx                      <- Assumed dataset file (may be internal to the repo)
+├── News_Article_Share_Prediction.ipynb        <- Main analysis notebook
+└── README.md                                  <- This file
+└── news_share_data.xlsx                       <- Assumed dataset file (may be internal to the repo)
 
 ## 📝 Future Enhancements
 . Potential improvements for this project include:
 . Deep Learning Models: Experimenting with Neural Networks (e.g., using TensorFlow or PyTorch) for potentially better prediction accuracy.
 . Time Series Analysis: Incorporating time-based features to see if publishing trends influence shareability.
 . Deployment: Creating a simple web application (using Flask or Streamlit) to host the trained model for real-time predictions.
+
 
